@@ -1,103 +1,51 @@
-import Image from "next/image";
-
+// app/page.tsx
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <main className="min-h-screen flex items-center justify-center px-6 py-12 bg-gray-50">
+      <div className="max-w-3xl mx-auto space-y-4 text-gray-800">
+        <h1 className="text-xl font-bold">hi. i'm yash.</h1>
+        <p className="mb-1">
+          i'm from pune, working as a business analyst at a startup. i also run a (small) digital marketing agency as a content strategist (freelance). i'm interested in tech, ai, startups, web3 and more.
+        </p>
+        <p>
+          this site is WIP, i used to write a lot, but these days i spend most of my time working, you can find me on{" "}
+          <a href="https://x.com/yashmandi" target="_blank" className="text-blue-600 underline">twitter</a>, i often post there something.
+        </p>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        <section>
+          <h2 className="text-xl font-semibold mb-2">some things about me</h2>
+          <ul className="list-disc list-inside">
+            <li>i like to build stuff, and i want to build more.</li>
+            <li>i write blogs, mostly about tech, and life sometimes (which i don't publish)</li>
+            <li>i like to read.</li>
+            <li>i believe in taking on more challenges (in life particularly). there's no point in competing if you don't want to be the best.</li>
+            <li>fitness & consistency are important to me because i believe in taking care of myself.</li>
+            <li>the ONLY way to reach me is via <a href="mailto:yashmandi18@gmail.com" className="text-blue-600 underline">e-mail</a> or whatsapp (if you have my number).</li>
+            <li>i listen to a lot of music, almost every genre. feel free to reach out and we can share playlists.</li>
+            <li>i'm skeptical about social media and only use <a href="https://x.com/yashmandi" target="_blank" className="text-blue-600 underline">twitter</a>.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-semibold mb-2">some things i believe</h2>
+          <ul className="list-disc list-inside">
+            <li>the work that hurts you less than it hurts others, is the work you're born to do.</li>
+            <li>health, wealth & good relationships, pursue them in that order.</li>
+            <li>be rich and anonymous, not poor and famous.</li>
+            <li>stay humble, be arrogant.</li>
+            <li>nothing happens, and nothing happens, and then everything happens at once (power of compounding).</li>
+            <li>keep building things. 99% of the stuff you build, will fail, but eventually it will compound to a greater level.</li>
+            <li>“I swear to you that to think too much is a disease, a real, actual disease.” - Dostoyevsky</li>
+            <li>be direct, real and transparent. life is short.</li>
+            <li>start quick. fail quick. win quick. velocity matters.</li>
+          </ul>
+        </section>
+
+        <p>
+          i will probably add more to this soon- meanwhile feel free to say hi on my{" "}
+          <a href="mailto:yashmandi18@gmail.com" className="text-blue-600 underline">e-mail</a>
+        </p>
+      </div>
+    </main>
   );
 }
