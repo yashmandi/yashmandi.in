@@ -36,10 +36,7 @@ export default function Home() {
           <h2 className="text-lg font-semibold text-black mb-2">some things i believe</h2>
           <ul className="list-disc list-inside">
             <li>be a generalist, not a specialist. being average at 3 things &gt; being good at 1 thing.</li>
-            <li className="flex items-start">
-              <span className="w-[4px] h-1 mt-2 mr-4 bg-black rounded-full inline-block"></span>
-              <span>take on more challenges, in life particularly. there's no point in competing if you don't want to be the best.</span>
-            </li>
+            <li>take on more challenges, in life particularly. there's no point in competing if you don't want to be the best.</li>
             <li>the cure to loneliness is being extremely ambitious.</li>
             <li>hire fast, fire faster.</li>
             <li>anyone can pick any skill and be top 1% in 4 months.</li>
@@ -48,10 +45,7 @@ export default function Home() {
             <li>the work that hurts you less than it hurts others, is the work you're born to do.</li>
             <li>health, wealth & good relationships, pursue them in that order.</li>
             <li>be rich and anonymous, not poor and famous.</li>
-            <li className="flex items-start">
-              <span className="w-[5px] h-1 mt-2 mr-4 bg-black rounded-full inline-block"></span>
-              <span>nothing happens, and nothing happens, and then everything happens at once (power of compounding).</span>
-            </li>
+            <li>nothing happens, and nothing happens, and then everything happens at once (power of compounding).</li>
             <li>keep building things. 99% of the stuff you build, will fail, but eventually it will compound to a greater level.</li>
           </ul>
         </section>
