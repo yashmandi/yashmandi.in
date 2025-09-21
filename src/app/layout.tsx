@@ -10,6 +10,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "yash mandi",
   description: "yash mandi - personal website",
+  icons: {
+    icon: "/yash-icon-circle.png", // path to your icon in the public folder
+  },
 };
 
 export default function RootLayout({
@@ -19,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`} style={{ fontSize: "13px" }}>
+      <body className={`${inter.className} antialiased`} style={{ fontSize: "13.5px" }}>
         {children}
       </body>
     </html>
