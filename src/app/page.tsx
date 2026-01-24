@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import yashIcon from './yash-icon.png'
 
 export default function Home() {
   return (
@@ -7,17 +6,18 @@ export default function Home() {
       <div className="max-w-xl mx-auto space-y-4 text-slate-800">
         <h1 className="text-3xl font-bold">yash mandi.</h1>
         <div className="space-x-3 flex mb-7">
+          <a href="https://x.com/yashmandi" target="_blank" className="underline text-blue-800 hover:no-underline">x (twitter)</a>
+          <a href="https://github.com/yashmandi" target="_blank" className="underline text-blue-800 hover:no-underline">github</a>
+          <a href="https://linkedin.com/in/yashmandi" target="_blank" className="underline text-blue-800 hover:no-underline">linkedin</a>
           {/* <a href="mailto:yash.mandi@oneclarity.ai" className="underline hover:no-underline">e-mail</a> */}
-          <a href="https://x.com/yashmandi" target="_blank" className="underline hover:no-underline">x (twitter)</a>
-          <a href="https://github.com/yashmandi" target="_blank" className="underline hover:no-underline">github</a>
-          <a href="https://linkedin.com/in/yashmandi" target="_blank" className="underline hover:no-underline">linkedin</a>
+          {/* <a href="mailto:yash.mandi@oneclarity.ai" className="underline hover:no-underline">30 mins meeting</a> */}
         </div>
         <p>
-          i'm 23, grew up in pune, maharashtra, but originally from a small town in karnataka.
-          studied cs at a tier-2 college and have been working since 2019 - switching between multiple roles before settling into what excites me most: <span className="italic">building things</span>.
+          i'm 24, grew up in pune, maharashtra, but originally from a small town in karnataka.
+          studied cs at a tier-2 college and have been working since 2019. I moved between sales, customer support, marketing, and freelancing before settling on what excites me most: <span className="italic">building things</span>.
         </p>
         <p>
-          currently, i serve as the CTO & founding engineer at <a href="https://www.oneclarity.ai" target="_blank" className="underline hover:no-underline">OneClarity.AI</a>, an AI-based B2B productivity platform for enterprises.
+          currently, i serve as the CTO & founding engineer at <a href="https://www.oneclarity.ai" target="_blank" className="underline text-blue-800 hover:no-underline">OneClarity</a>, an AI-based B2B productivity platform for enterprises.
         </p>
 
         <section>
@@ -25,10 +25,10 @@ export default function Home() {
           <ul className="list-disc list-inside">
             <li>i like to build stuff, and i want to build more.</li>
             <li>i write blogs, mostly about tech, and life sometimes (which i don't publish).</li>
-            <li>i like to read & mostly listen to podcasts.</li>
+            <li>i like to read & i mostly listen to podcasts.</li>
             {/* <li>fitness & consistency are important to me because i believe in taking care of myself.</li> */}
-            <li>i listen to a lot of music, almost every genre.</li>
-            <li>i'm bit skeptical about social media and currently only use <a href="https://x.com/yashmandi" target="_blank" className="underline hover:no-underline">twitter</a> (sometimes).</li>
+            <li>i listen to a lot of music.</li>
+            <li>i'm a reluctant user of social media and currently only use <a href="https://x.com/yashmandi" target="_blank" className="underline text-blue-800 hover:no-underline">twitter</a> (sometimes).</li>
           </ul>
         </section>
 
@@ -52,7 +52,7 @@ export default function Home() {
 
         <p>
           i will probably add more to this soon- meanwhile feel free to say hi on my{" "}
-          <a href="mailto:yash.mandi@oneclarity.ai" className="underline hover:no-underline">e-mail</a>
+          <a href="mailto:yash.mandi@oneclarity.ai" className="underline text-blue-800 hover:no-underline">e-mail</a>
         </p>
       </div>
     </main>
