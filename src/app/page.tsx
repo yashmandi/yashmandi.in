@@ -14,7 +14,7 @@ export default function Home() {
         </div>
         <p>
           i'm 24, grew up in pune, maharashtra, but originally from a small town in karnataka.
-          studied cs at a tier-2 college and have been working since 2019. I moved between sales, customer support, marketing, and freelancing before settling on what excites me most: <span className="italic">building things</span>.
+          studied cs at a tier-2 college and have been working since 2019. I moved between sales, customer support, programming, marketing, and freelancing before settling on what excites me most: <span className="italic">building things</span>.
         </p>
         <p>
           currently, i serve as the CTO & founding engineer at <a href="https://www.oneclarity.ai" target="_blank" className="underline text-blue-800 hover:no-underline">OneClarity</a>, an AI-based B2B productivity platform for enterprises.
@@ -38,14 +38,14 @@ export default function Home() {
             <li>be a generalist, not a specialist. being average at 3 things &gt; being good at 1 thing.</li>
             <li>take on more challenges, in life particularly. there's no point in competing if you don't want to be the best.</li>
             <li>the cure to loneliness is being extremely ambitious.</li>
-            <li>hire fast, fire faster.</li>
-            <li>anyone can pick any skill and be top 1% in 4 months.</li>
+            <li>you need to be delusional enough that people start calling you crazy.</li>
+            <li>anyone can pick any skill and be top 1% in 3 months.</li>
             <li>smaller teams are better. faster decisions, fewer meetings, more fun.</li>
-            <li>regrets are for pussies. shit happens, deal with it.</li>
             <li>the work that hurts you less than it hurts others, is the work you're born to do.</li>
             <li>health, wealth & good relationships, pursue them in that order.</li>
             <li>be rich and anonymous, not poor and famous.</li>
             <li>nothing happens, and nothing happens, and then everything happens at once (power of compounding).</li>
+            <li>regrets are for pussies. shit happens, deal with it.</li>
             <li>keep building things. 99% of the stuff you build, will fail, but eventually it will compound to a greater level.</li>
           </ul>
         </section>
