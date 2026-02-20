@@ -18,7 +18,7 @@ const ThinkingsPage = () => {
                     <span className="text-slate-700 text-2xl">/thinkings</span>
                 </h1>
 
-                <ul className="space-y-4 mt-8 list-disc list-inside">
+                <ul className="mt-8 list-disc list-inside">
                     {posts.map((post) => (
                         <li key={post.slug}>
                             <Link

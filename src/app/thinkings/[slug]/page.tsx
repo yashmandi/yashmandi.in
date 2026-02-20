@@ -14,9 +14,9 @@ export default function ThinkingPage({
 
     return (
         <main className="min-h-screen px-6 py-12 bg-gray-50">
-            <div className="max-w-3xl mx-auto space-y-6 text-slate-800">
+            <div className="max-w-3xl mx-auto space-y-2 text-slate-800">
                 <Link
-                    href="/"
+                    href="/thinkings"
                     className="underline text-blue-800 hover:no-underline flex w-fit"
                 >
                     <IoMdArrowRoundBack className="mt-1 mr-1" />
