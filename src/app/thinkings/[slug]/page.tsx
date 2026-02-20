@@ -3,12 +3,13 @@ import Link from "next/link";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { posts } from "../posts";
 
-export default function ThinkingPage({
+export default async function ThinkingPage({
     params,
 }: {
-    params: { slug: string };
+    params: Promise<{ slug: string }>;
 }) {
-    const post = posts.find((p) => p.slug === params.slug);
+    const { slug } = await params;
+    const post = posts.find((p) => p.slug === slug);
 
     if (!post) return notFound();
 
